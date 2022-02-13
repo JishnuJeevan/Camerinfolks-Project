@@ -1,0 +1,48 @@
+.section2{
+    display: flex;
+}
+
+.Sect2_Sub1{
+    margin: 25px;
+    padding: 25px;
+    background-color: red;
+}
+
+.Sect2_Sub2{
+    margin: 25px;
+    padding: 25px;
+    background-color: orange;
+}
+
+.Sect2_Sub3{
+    margin: 25px;
+    padding: 25px;
+    background-color:darkcyan;
+}
+
+.Sect2_Sub1 h3{
+    color: white;
+}
+
+.Sect2_Sub2 h3{
+    color: white;
+}
+
+.Sect2_Sub3 h3{
+    color: white;
+}
+
+.Sect2_Sub1 p{
+    color: white;
+    font-size: large;
+}
+
+.Sect2_Sub2 p{
+    color: white;
+    font-size: large;
+}
+
+.Sect2_Sub3 p{
+    color: white;
+    font-size: large;
+}

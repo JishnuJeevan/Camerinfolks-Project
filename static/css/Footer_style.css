@@ -1,0 +1,81 @@
+.Foot{
+    display: flex;
+    background-color:dimgrey;
+}
+
+.About{
+    padding:50px;
+}
+
+.About h3{
+    padding-top:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+}
+
+.About p{
+    padding-top:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.About ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.About li{
+    padding-left: 50px;
+}
+
+.Navigation1{
+    padding:50px;
+    margin-left: 150px;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Navigation1 h3{
+    color: orange;
+}
+
+.Navigation1 ul{
+    list-style: none;
+}
+
+.Navigation1 li{
+    padding-top: 25px;
+    color: white;
+}
+
+.Navigation2{
+    padding:50px;
+    margin-left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Navigation2 h3{
+    color: orange;
+}
+
+.Navigation2 ul{
+    list-style: none;
+}
+
+.Navigation2 li{
+    padding-top: 25px;
+    color: white;
+}
+
+.hr{
+    width: 25%;
+}
+
+.copyright{
+    text-align: center;
+    background-color: dimgrey;
+    font-size: larger;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px;
+    padding-bottom: 75px;
+}

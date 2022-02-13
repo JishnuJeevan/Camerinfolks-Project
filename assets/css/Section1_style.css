@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    background-image: url(../img/bg_section1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+    background-blend-mode: color;      
+    background-color: rgba(0, 0, 0, 0.5);  
+}
+
+.home h3{
+    color: orange;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 100px;
+}
+
+.home h1{
+    color:aquamarine;
+    font-size: 60px;
+    font-family: cursive;
+    padding-left: 100px;
+}
+
+.home p{
+    color: white;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 100px;
+}
+
+/* Target the class top navigtion bar*/
+.top{
+    display: flex; 
+}
+
+.top div{
+    width: 50%; 
+    padding-left: 10%;
+    /*background-color: red;*/
+}
+
+.logo img{
+    width: 45%;
+}
+
+.top li{
+    text-align: left;
+    width: 50%;
+    list-style: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar2{
+    display: flex;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.left{
+    display: flex;    
+    width: 50%;
+    list-style: none;
+    padding-left: 100px;
+}
+
+.right{
+    display: flex;
+    width: 50%;
+    list-style: none;
+    padding-left: 400px;
+}
+
+.right li{
+    padding: 20px;
+}
+
+.left li{
+    padding: 20px;
+}
+
+.right li a{
+    text-decoration: none;
+    color: white;
+}
+
+.left li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+USE COMMAND PROMPT AND NOT POWER SHELL
+1. Install Virtual Environment - pip install virtualenv
+2. Create Virtual Environment - virtualenv camerin (camerin is the environment) name
+3. Activate Virtual Environment - camerin\Scripts\activate
+4. Install Django - pip install django
+5. Create a Django project - django-admin startproject CAMERIN
+6. Cut and paste the folder and the file in the CAMERIN folder to the root folder
+7. Start app - python manage.py startapp authentication (authentication is name of the app)
+8. Start surver - python manage.py runserver
+
+1. Make migrations - python manage.py makemigrations
+2. And then type - python manage.py migrate
+3. NOTE: Close the surver to do this and re-run the server again.

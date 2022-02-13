@@ -1,0 +1,180 @@
+.section4{
+    background-color: dodgerblue;
+}
+
+.section4 h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.section4 h4{
+    text-align: center;
+    font-family: cursive;
+    color: red;
+    font-size: larger;
+}
+
+.subsection{
+    display: flex;
+}
+
+.sub1{
+    padding: 25px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.sub2{
+    padding: 25px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.sub3{
+    padding: 25px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.sub4{
+    padding: 25px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.sub1 img{
+    display: block;
+    margin: 0 auto;
+    width: 48x;
+    height: 48px;
+}
+
+.sub2 img{
+    display: block;
+    margin: 0 auto;
+    width: 48x;
+    height: 48px;
+}
+
+.sub3 img{
+    display: block;
+    margin: 0 auto;
+    width: 48x;
+    height: 48px;
+}
+
+.sub4 img{
+    display: block;
+    margin: 0 auto;
+    width: 48px;
+    height: 48pxpx;
+}
+
+.sub1 button{
+    margin-left: 25%;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: ridge;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-color: red;
+}
+
+.sub2 button{
+    margin-left: 25%;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: green;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: ridge;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-color: green;
+}
+
+.sub3 button{
+    margin-left: 25%;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: purple;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: ridge;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-color: purple;
+}
+
+.sub4 button{
+    margin-left: 25%;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: blue;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: ridge;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-color: blue;
+}
+
+.sub1 h2{
+    text-align: center;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.sub2 h2{
+    text-align: center;
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.sub3 h2{
+    text-align: center;
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.sub4 h2{
+    text-align: center;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sub1 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: medium;
+}
+
+.sub2 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: medium;
+}
+
+.sub3 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: medium;
+}
+
+.sub4 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: medium;
+}
+

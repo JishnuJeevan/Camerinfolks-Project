@@ -1,0 +1,47 @@
+.section3{
+    display: flex;
+    background-color: gray;
+}
+
+.Sect3_Sub1{
+    margin: 25px;
+    padding: 25px;
+}
+
+.Sect3_Sub2{
+    margin: 25px;
+    padding: 25px;
+}
+
+.Sect3_Sub2 h4{
+    font-family: cursive;
+    color: orange;
+}
+
+.Sect3_Sub2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+.Sect3_Sub2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: beige;
+    font-size: 20px;
+}
+
+
+.Sect3_Sub2 button{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border-style: ridge;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-color: yellow;
+}

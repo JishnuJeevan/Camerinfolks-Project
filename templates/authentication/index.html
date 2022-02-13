@@ -1,0 +1,169 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/Section1_style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Section2_style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Section3_style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Section4_style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Section5_style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Footer_style.css' %}">
+    <title>CamerinKids</title>
+</head>
+<body>
+    {% for message in messages %}
+    <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+        <strong>Message:</strong> {{ message }}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+    </div>
+    {% endfor %}
+    <!-- Section 1 -->
+    <div class="section1">
+        <!-- The log, location, and time navigation bar -->
+        <nav class="navbar1">
+            <ul class="nav-list top">
+                <div class="logo"> <img src="{% static 'img/logo_cf.png' %}" alt="CamerinKids"></div>
+                <li> <img src="{% static 'img/location.png' %}" alt="CamerinKids"> Mythri Buildings, Arangath Road, <br> Cochin- 18 </li>
+                <li> <img src="{% static 'img/clock.png' %}" alt="CamerinKids"> Monday - Saturday 9:00AM - 6:00PM. <br> Sunday CLOSED </li>
+            </ul>
+        </nav>    
+        <!-- The Home, About, Courses, Contact navigation bar -->
+        <nav class="navbar2">
+            <ul class="nav-list left">
+                <li> <a href="#home"> Home </a> </li>
+                <li> <a href="#about"> About </a> </li>
+                <li> <a href="#courses"> Courses </a> </li>
+                <li> <a href="#contact"> Contact </a> </li>
+                <li> <a href="/signin"> Login </a> </li>
+                <li> <a href="/register"> Register </a> </li>
+            </ul>
+            <!-- The links to social media pages -->
+            <ul class="nav-list right">
+                <li> <a href="https://www.facebook.com/CamerinKids"> <img src="{% static 'img/logo_facebook.png' %}" alt="facebook"> </a> </li>
+                <li> <a href="https://www.instagram.com/camerinkids/"> <img src="{% static 'img/logo_instagram.png' %} " alt="instagram"></a> </li>
+                <li> <a href="https://www.youtube.com/results?search_query=camerinkids"> <img src="{% static 'img/logo_youtube.png' %}" alt="youtube"> </a> </li>
+            </ul>
+        </nav> 
+        <div class="home">
+            <h3>Home</h3>
+            <h1>CamerinKids</h1>
+            <p>
+                EXPLORE YOUR KID'S LOGICAL SKILLS <br>
+                & LET THEM CREATE OUR DIGITAL INDIA <br>
+                LIVE ONLINE COMPUTER CODING CLASSES <br>
+                FOR KIDS FROM GRADE 4-12.
+            </p>
+        </div>
+    </div>
+    <!-- Section 2 -->
+    <div class="section2">
+        <div class="Sect2_Sub1">
+            <h3> IMPROVES IQ & LOGICAL REASONING </h3>
+            <p> Learning to code can improve problem-solving abilities and computational thinking skills and give them more career opportunities in the future. Computational thinking teaches you how to tackle large problems by breaking them down into a sequence of smaller, more manageable problems. </p>
+        </div>
+        <div class="Sect2_Sub2">
+            <h3>BEST SKILL TO REFINE A CHILD'S CREATIVITY</h3>
+            <p> The first aspect of creativity in code is solving puzzles with a limited set of instructions that a computer can understand at a given particular constraints. Research shows coding to be the best skill for enhancing creativity by ~90% more than others activities. </p>
+        </div>
+        <div class="Sect2_Sub3">
+            <h3>GIVE YOUR CHILD THE BEST MENTORS</h3>
+            <p>Camerinkids online teachers are experienced computer software developers, designers, and educators who double as mentors make coding fun and engaging for kids. Teachers who love teaching teach children to love learning.</p>
+        </div>
+    </div>
+    <!-- Section 3 -->
+    <div class="section3">
+        <div class="Sect3_Sub1">
+            <img src="{% static 'img/children.png' %}" alt="camerinkids">
+        </div>
+        <div class="Sect3_Sub2">
+            <h4>About us</h4>
+            <h2>Bring Fun Life To Your Kids</h2>
+            <p>Camerinkids is a user-friendly web-based learning platform that offers computer programming courses to the kids and lets them explore logical skills and create websites. Camerinkids offers self-paced online courses for children to learn coding at home. With the help of the Camerinkids, kids can easily conquer the basics of Game development,programming and creating websites. <br>
+            CamerinKids provides everything needed to learn computer programming in a fun way. The uniqueness of Camerinkids stems from the fact because everyone should have the chance to learn the magic of programming. The courses are user-friendly and inbuilt so children can quickly get involved in them without needing an opening course or previous coding background.</p>
+            <button type = "button"> More About Us </button>
+        </div>
+    </div>
+    <!-- Section 4 -->
+    <div class="section4">
+        <h4>Courses you like</h4>
+        <h1>Our courses</h1>
+        <div class="subsection">
+            <div class="sub1">
+                <img src="{% static 'img/python.png' %}" alt="Python">
+                <h2>Python</h2>
+                <p>
+                    Jumpstart your kid's career & ensure future success by helping them master the BEST coding language! Start your child's journey to master Python. You will get a brief idea of what Python is and touch on the basics.
+                </p>
+                <button type = "button"> Learn More </button>
+            </div>
+            <div class="sub2">
+                <img src="{% static 'img/game.png' %}" alt="PyGame">
+                <h2>PyGame</h2>
+                <p>
+                    Make something extraordinary with Camerinkids for kids. Get introduced to the amazing world of coding and create your own apps and games. This course will empower them to transform from a being dreamer to an inventor.
+                </p>
+                <button type = "button"> Learn More </button>
+            </div>
+            <div class="sub3">
+                <img src="{% static 'img/website.png' %}" alt="Websites">
+                <h2>Websites</h2>
+                <p>
+                    Mastering programming to create your own Websites. You can select templates from the list and design with simple language and you can create your own website. This will Unleash their Potential with Real Coding Instructions.
+                </p>
+                <button type = "button"> Learn More </button>
+            </div>
+            <div class="sub4">
+                <img src="{% static 'img/computer.png' %}" alt="Basic Computer Skills">
+                <h2>Basic Computer Skills</h2>
+                <p>
+                    You can get any computer basic solution from camerinkids. This basic computer skills course will provide you Operating System(Windows), Office suites(Microsoft Office, Microsoft Word,Microsoft Excel), Presentation Software(Power point), Spreadsheets(Excel, Google Spreadsheets).
+                </p>
+                <button type = "button"> Learn More </button>
+            </div>
+        </div>
+    </div>
+    <!-- Section 5 -->
+    <div class="section5">
+        <p> Bring Fun Life To Your Kids </p>
+        <button type = "button"> Get Started </button>
+    </div>
+    <!-- Footer -->
+    <footer class="Foot">
+        <div class="About">
+            <h3>About Us</h3>
+            <p>A sister concern of CAMERINFOLKS PVT. LTD.</p>
+            <h3>Social Media</h3>
+            <ul>
+                <li> <a href="https://www.facebook.com/CamerinKids"> <img src="{% static 'img/logo_facebook.png' %}" alt="facebook"> </a> </li>
+                <li> <a href="https://www.instagram.com/camerinkids/"> <img src="{% static 'img/logo_instagram.png' %}" alt="instagram"></a> </li>
+                <li> <a href="https://www.youtube.com/results?search_query=camerinkids"> <img src="{% static 'img/logo_youtube.png' %}" alt="youtube"> </a> </li>
+            </ul>
+        </div>
+        <div class="Navigation1">
+            <h3>Navigation</h3>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <div class="Navigation2">
+            <h3>Navigation</h3>
+            <ul>
+                <li>Courses</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </footer>
+    <hr>
+    <div class="copyright">
+        <p>
+            &copy;2022 All rights reserved by Camerinfolks Pvt. Ltd.  Designed by Camerinfolks Pvt. Ltd.
+        </p>
+    </div>        
+</body>
+</html>
